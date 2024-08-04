@@ -24,7 +24,7 @@ pipeline{
         }
          stage("Build") {
              steps {
-                bat 'dotnet build SeleniumIde.sln --configuration Release'
+                bat 'dotnet build SeleniumBasicExercise.sln --configuration Release'
              }
         }
          stage("Run tests TestProject1") {
